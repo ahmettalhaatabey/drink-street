@@ -49,7 +49,13 @@
   <p>Oyun hesap açtırmaz ve giriş istemez. E-posta, telefon numarası, konum, fotoğraf veya kişi listesi istemez ve bunlara erişmez.</p>
 
   <h2>Kullanım istatistikleri</h2>
-  <p>Oyunu geliştirmek için anonim oyun olaylarını (örneğin "eğitim adımı tamamlandı", "yeni işletme açıldı") Google Firebase Analytics ile toplayabiliriz. Bu olaylara adın, reklam kimliğin veya seni tanımlayan bir bilgi eklenmez; reklam kimliği toplama kapalıdır.</p>
+  <p>Oyunu geliştirmek için Google Firebase Analytics ile anonim kullanım istatistikleri toplarız:</p>
+  <ul>
+    <li>Oyun olayları (örneğin "eğitim adımı tamamlandı", "yeni işletme açıldı"), oturum ve ekran sayıları,</li>
+    <li>Firebase'in her kuruluma verdiği rastgele bir uygulama kimliği (adınla ya da hesabınla bağlantılı değildir),</li>
+    <li>IP adresinden çıkarılan yaklaşık konum (ülke/şehir düzeyinde; IP adresi saklanmaz).</li>
+  </ul>
+  <p>Adın, reklam kimliğin, cihaz kimliğin veya seni tanımlayan bir bilgi gönderilmez; reklam kimliği toplama ve reklam kişiselleştirmesi kapalıdır. Bu veriler satılmaz ve reklam için kullanılmaz. İstatistikleri oyunda <b>Ayarlar → Anonim istatistikler</b> anahtarıyla istediğin zaman kapatabilirsin.</p>
 
   <h2>Reklamlar ve satın almalar</h2>
   <p>Oyunun ileriki sürümlerinde isteğe bağlı ödüllü reklamlar ve uygulama içi satın almalar bulunabilir. Reklamlar yalnızca Google Play Aileler programına uygun reklam hizmetleriyle ve <b>kişiselleştirilmemiş</b> olarak gösterilir. Satın almalar Google Play üzerinden yapılır; ödeme bilgilerin bizimle paylaşılmaz. Oyunun bütün içeriği para ödemeden de açılabilir.</p>
@@ -58,7 +64,7 @@
   <ul>
     <li>Google Play Hizmetleri: uygulamanın dağıtımı, güncellemeleri, değerlendirme penceresi ve satın almalar</li>
     <li>Android yedeklemesi (Google): oyun ilerlemesinin yedeklenmesi</li>
-    <li>Google Firebase Analytics: anonim kullanım istatistikleri</li>
+    <li>Google Firebase Analytics: anonim kullanım istatistikleri (Ayarlar'dan kapatılabilir)</li>
     <li>Google AdMob: yalnızca reklam eklendiğinde; kişiselleştirilmemiş, Aileler programına uygun</li>
   </ul>
 
@@ -95,7 +101,13 @@
   <p>The game does not create accounts or ask you to sign in. It does not ask for or access your email, phone number, location, photos or contacts.</p>
 
   <h2>Usage statistics</h2>
-  <p>To improve the game we may collect anonymous game events (for example "tutorial step completed", "new business opened") with Google Firebase Analytics. These events never include your name, your advertising ID or anything that identifies you; advertising ID collection is turned off.</p>
+  <p>To improve the game we collect anonymous usage statistics with Google Firebase Analytics:</p>
+  <ul>
+    <li>game events (for example "tutorial step completed", "new business opened"), session and screen counts,</li>
+    <li>a random app-instance ID that Firebase assigns to each installation (not linked to your name or account),</li>
+    <li>approximate location derived from the IP address (country/city level; the IP address is not stored).</li>
+  </ul>
+  <p>Your name, advertising ID, device ID or anything that identifies you is never sent; advertising ID collection and ad personalization are turned off. This data is never sold or used for advertising. You can turn statistics off at any time in the game under <b>Settings → Anonymous statistics</b>.</p>
 
   <h2>Ads and purchases</h2>
   <p>Future versions may include optional rewarded ads and in-app purchases. Ads are shown only through services compliant with the Google Play Families program and are always <b>non-personalized</b>. Purchases go through Google Play; your payment details are never shared with us. Everything in the game can also be unlocked without paying.</p>
@@ -104,7 +116,7 @@
   <ul>
     <li>Google Play Services: app delivery, updates, the review prompt and purchases</li>
     <li>Android backup (Google): backing up game progress</li>
-    <li>Google Firebase Analytics: anonymous usage statistics</li>
+    <li>Google Firebase Analytics: anonymous usage statistics (can be turned off in Settings)</li>
     <li>Google AdMob: only once ads are added; non-personalized and Families-compliant</li>
   </ul>
 
